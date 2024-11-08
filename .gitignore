@@ -24,3 +24,6 @@ apple_website_public.zip
 *.njsproj
 *.sln
 *.sw?
+
+# Sentry Config File
+.env.sentry-build-plugin
