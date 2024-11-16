@@ -38,7 +38,7 @@ const Features = () => {
         })
     },[])
   return (
-    <sextion className="h-full common-padding bg-zinc relative overflow-hidden">
+    <section className="h-full common-padding bg-zinc relative overflow-hidden">
         <div className="secreen-max-width">
             <div className="mb-12 w-full">
                 <h1 id='features_title' className='section-heading'>Explore the full story.</h1>
@@ -87,7 +87,7 @@ const Features = () => {
                 </div>
             </div>
         </div>
-    </sextion>
+    </section>
   )
 }
 
