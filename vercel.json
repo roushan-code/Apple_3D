@@ -1,13 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!.*\\.glb$).*)",
       "destination": "/index.html"
     }
   ],
   "headers": [
     {
-      "source": "/(.*).glb",
+      "source": "/(.*)\\.glb",
       "headers": [
         {
           "key": "Content-Type",
